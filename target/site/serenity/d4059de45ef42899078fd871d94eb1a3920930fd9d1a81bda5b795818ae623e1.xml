@@ -1,0 +1,60 @@
+<acceptance-test-run title="Registro" name="registro" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="14878" timestamp="2018-03-13T10:16:19.130-05:00" session-id="438a5c43ea4b21800c8331893d4febf9">
+  <user-story id="Registro" name="Registro" path="stories/Registro.story"/>
+  <tags>
+    <tag name="Registro" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>usuario</header>
+      <header>password</header>
+      <header>repeatpassword</header>
+      <header>gender</header>
+      <header>address</header>
+      <header>billing_address</header>
+      <header>state</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>Hernan</value>
+        <value>clave</value>
+        <value>clave</value>
+        <value>male</value>
+        <value>calle falsa 123</value>
+        <value>calle falsa 1234</value>
+        <value>Kerala</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {usuario=Hernan, password=clave, repeatpassword=clave, gender=male, address=calle falsa 123, billing_address=calle falsa 1234, state=Kerala}" result="SUCCESS">
+    <test-group name="Given estoy en la aplicacion de training site" result="SUCCESS">
+      <screenshots>
+        <screenshot image="78de9a2af7ccc5bdf90eccb578ad91bf.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="9191">
+        <screenshots>
+          <screenshot image="78de9a2af7ccc5bdf90eccb578ad91bf.png"/>
+        </screenshots>
+        <description>Abrir app</description>
+      </test-step>
+    </test-group>
+    <test-group name="When me registro con usuario{Hernan}, password{clave}, repeatpassword{clave}, gender{male}, address{calle falsa 123}, billing_address{calle falsa 1234}, state{Kerala}" result="SUCCESS">
+      <screenshots>
+        <screenshot image="78de9a2af7ccc5bdf90eccb578ad91bf.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="3408">
+        <screenshots>
+          <screenshot image="78de9a2af7ccc5bdf90eccb578ad91bf.png"/>
+        </screenshots>
+        <description>Registrarse: Hernan, clave, clave, male, calle falsa 123, calle falsa 1234, Kerala</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then puedo iniciar sesion desde la pagina de login" result="SUCCESS">
+      <test-step result="SUCCESS" duration="57">
+        <description>Mensaje registro</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>stories.Registro</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">stories/Registro.story</div>
+<div class="scenario">
+<h2>Scenario: registro</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given estoy en la aplicacion de training site</div>
+<div class="step">When me registro con usuario&lt;usuario&gt;, password&lt;password&gt;, repeatpassword&lt;repeatpassword&gt;, gender&lt;gender&gt;, address&lt;address&gt;, billing_address&lt;billing_address&gt;, state&lt;state&gt;</div>
+<div class="step">Then puedo iniciar sesion desde la pagina de login</div>
+<table>
+<thead>
+<tr>
+<th>usuario</th><th>password</th><th>repeatpassword</th><th>gender</th><th>address</th><th>billing_address</th><th>state</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Hernan</td><td>clave</td><td>clave</td><td>male</td><td>calle falsa 123</td><td>calle falsa 1234</td><td>Kerala</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {usuario=Hernan, password=clave, repeatpassword=clave, gender=male, address=calle falsa 123, billing_address=calle falsa 1234, state=Kerala}</h3>
+<div class="step successful">Given estoy en la aplicacion de training site</div>
+<div class="step successful">When me registro con usuario<span class="step parameter">Hernan</span>, password<span class="step parameter">clave</span>, repeatpassword<span class="step parameter">clave</span>, gender<span class="step parameter">male</span>, address<span class="step parameter">calle falsa 123</span>, billing_address<span class="step parameter">calle falsa 1234</span>, state<span class="step parameter">Kerala</span></div>
+<div class="step successful">Then puedo iniciar sesion desde la pagina de login</div>
+</div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

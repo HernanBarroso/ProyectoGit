@@ -1,0 +1,823 @@
+<xref>
+  <stories>
+    <performableStory>
+      <story>
+        <path>stories/Registro.story</path>
+        <description>
+          <descriptionAsString></descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo></inOrderTo>
+          <asA></asA>
+          <iWantTo></iWantTo>
+          <soThat></soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title>registro</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|usuario|password|repeatpassword|gender|address|billing_address|state|&#xd;
+|Hernan|clave|clave|male|calle falsa 123|calle falsa 1234|Kerala|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>usuario</string>
+                <string>password</string>
+                <string>repeatpassword</string>
+                <string>gender</string>
+                <string>address</string>
+                <string>billing_address</string>
+                <string>state</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>usuario</string>
+                    <string>Hernan</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>clave</string>
+                  </entry>
+                  <entry>
+                    <string>repeatpassword</string>
+                    <string>clave</string>
+                  </entry>
+                  <entry>
+                    <string>gender</string>
+                    <string>male</string>
+                  </entry>
+                  <entry>
+                    <string>address</string>
+                    <string>calle falsa 123</string>
+                  </entry>
+                  <entry>
+                    <string>billing_address</string>
+                    <string>calle falsa 1234</string>
+                  </entry>
+                  <entry>
+                    <string>state</string>
+                    <string>Kerala</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given estoy en la aplicacion de training site</string>
+              <string>When me registro con usuario&lt;usuario&gt;, password&lt;password&gt;, repeatpassword&lt;repeatpassword&gt;, gender&lt;gender&gt;, address&lt;address&gt;, billing_address&lt;billing_address&gt;, state&lt;state&gt;</string>
+              <string>Then puedo iniciar sesion desde la pagina de login</string>
+            </steps>
+          </scenario>
+        </scenarios>
+        <name>Registro.story</name>
+      </story>
+      <localizedNarrative>As a 
+I want to 
+So that </localizedNarrative>
+      <allowed>true</allowed>
+      <status>SUCCESSFUL</status>
+      <givenStories/>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <title>registro</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|usuario|password|repeatpassword|gender|address|billing_address|state|&#xd;
+|Hernan|clave|clave|male|calle falsa 123|calle falsa 1234|Kerala|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>usuario</string>
+                <string>password</string>
+                <string>repeatpassword</string>
+                <string>gender</string>
+                <string>address</string>
+                <string>billing_address</string>
+                <string>state</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>usuario</string>
+                    <string>Hernan</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>clave</string>
+                  </entry>
+                  <entry>
+                    <string>repeatpassword</string>
+                    <string>clave</string>
+                  </entry>
+                  <entry>
+                    <string>gender</string>
+                    <string>male</string>
+                  </entry>
+                  <entry>
+                    <string>address</string>
+                    <string>calle falsa 123</string>
+                  </entry>
+                  <entry>
+                    <string>billing_address</string>
+                    <string>calle falsa 1234</string>
+                  </entry>
+                  <entry>
+                    <string>state</string>
+                    <string>Kerala</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given estoy en la aplicacion de training site</string>
+              <string>When me registro con usuario&lt;usuario&gt;, password&lt;password&gt;, repeatpassword&lt;repeatpassword&gt;, gender&lt;gender&gt;, address&lt;address&gt;, billing_address&lt;billing_address&gt;, state&lt;state&gt;</string>
+              <string>Then puedo iniciar sesion desde la pagina de login</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/Registro.story</storyPath>
+          <allowed>true</allowed>
+          <examplePerformableScenarios>
+            <examplePerformableScenario>
+              <parameters class="linked-hash-map">
+                <entry>
+                  <string>usuario</string>
+                  <string>Hernan</string>
+                </entry>
+                <entry>
+                  <string>password</string>
+                  <string>clave</string>
+                </entry>
+                <entry>
+                  <string>repeatpassword</string>
+                  <string>clave</string>
+                </entry>
+                <entry>
+                  <string>gender</string>
+                  <string>male</string>
+                </entry>
+                <entry>
+                  <string>address</string>
+                  <string>calle falsa 123</string>
+                </entry>
+                <entry>
+                  <string>billing_address</string>
+                  <string>calle falsa 1234</string>
+                </entry>
+                <entry>
+                  <string>state</string>
+                  <string>Kerala</string>
+                </entry>
+              </parameters>
+              <givenStories/>
+              <beforeSteps>
+                <matches/>
+              </beforeSteps>
+              <steps>
+                <matches/>
+                <results>
+                  <successful>
+                    <step>Given estoy en la aplicacion de training site</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>Given estoy en la aplicacion de training site</parametrisedStep>
+                    <durationInMillis>10032</durationInMillis>
+                  </successful>
+                  <successful>
+                    <step>When me registro con usuario&lt;usuario&gt;, password&lt;password&gt;, repeatpassword&lt;repeatpassword&gt;, gender&lt;gender&gt;, address&lt;address&gt;, billing_address&lt;billing_address&gt;, state&lt;state&gt;</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>When me registro con usuario｟Hernan｠, password｟clave｠, repeatpassword｟clave｠, gender｟male｠, address｟calle falsa 123｠, billing_address｟calle falsa 1234｠, state｟Kerala｠</parametrisedStep>
+                    <durationInMillis>3461</durationInMillis>
+                  </successful>
+                  <successful>
+                    <step>Then puedo iniciar sesion desde la pagina de login</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>Then puedo iniciar sesion desde la pagina de login</parametrisedStep>
+                    <durationInMillis>62</durationInMillis>
+                  </successful>
+                </results>
+              </steps>
+              <afterSteps>
+                <matches/>
+              </afterSteps>
+              <storyAndScenarioMeta>
+                <properties/>
+              </storyAndScenarioMeta>
+              <scenario>
+                <title>registro</title>
+                <meta>
+                  <properties/>
+                </meta>
+                <givenStories>
+                  <givenStories/>
+                  <givenStoriesAsString></givenStoriesAsString>
+                  <examplesTable>
+                    <tableAsString></tableAsString>
+                    <headerSeparator>|</headerSeparator>
+                    <valueSeparator>|</valueSeparator>
+                    <ignorableSeparator>|--</ignorableSeparator>
+                    <tableTransformers>
+                      <transformers>
+                        <entry>
+                          <string>FORMATTING</string>
+                          <formatting/>
+                        </entry>
+                        <entry>
+                          <string>REPLACING</string>
+                          <replacing/>
+                        </entry>
+                        <entry>
+                          <string>FROM_LANDSCAPE</string>
+                          <fromLandscape/>
+                        </entry>
+                      </transformers>
+                    </tableTransformers>
+                    <headers/>
+                    <data/>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                    <propertiesAsString></propertiesAsString>
+                    <namedParameters/>
+                    <trim>true</trim>
+                  </examplesTable>
+                </givenStories>
+                <examplesTable>
+                  <tableAsString>|usuario|password|repeatpassword|gender|address|billing_address|state|&#xd;
+|Hernan|clave|clave|male|calle falsa 123|calle falsa 1234|Kerala|</tableAsString>
+                  <headerSeparator>|</headerSeparator>
+                  <valueSeparator>|</valueSeparator>
+                  <ignorableSeparator>|--</ignorableSeparator>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers>
+                    <string>usuario</string>
+                    <string>password</string>
+                    <string>repeatpassword</string>
+                    <string>gender</string>
+                    <string>address</string>
+                    <string>billing_address</string>
+                    <string>state</string>
+                  </headers>
+                  <data>
+                    <linked-hash-map>
+                      <entry>
+                        <string>usuario</string>
+                        <string>Hernan</string>
+                      </entry>
+                      <entry>
+                        <string>password</string>
+                        <string>clave</string>
+                      </entry>
+                      <entry>
+                        <string>repeatpassword</string>
+                        <string>clave</string>
+                      </entry>
+                      <entry>
+                        <string>gender</string>
+                        <string>male</string>
+                      </entry>
+                      <entry>
+                        <string>address</string>
+                        <string>calle falsa 123</string>
+                      </entry>
+                      <entry>
+                        <string>billing_address</string>
+                        <string>calle falsa 1234</string>
+                      </entry>
+                      <entry>
+                        <string>state</string>
+                        <string>Kerala</string>
+                      </entry>
+                    </linked-hash-map>
+                  </data>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                  <trim>true</trim>
+                </examplesTable>
+                <steps>
+                  <string>Given estoy en la aplicacion de training site</string>
+                  <string>When me registro con usuario&lt;usuario&gt;, password&lt;password&gt;, repeatpassword&lt;repeatpassword&gt;, gender&lt;gender&gt;, address&lt;address&gt;, billing_address&lt;billing_address&gt;, state&lt;state&gt;</string>
+                  <string>Then puedo iniciar sesion desde la pagina de login</string>
+                </steps>
+              </scenario>
+            </examplePerformableScenario>
+          </examplePerformableScenarios>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+      </scenarios>
+      <beforeSteps/>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>15094</durationInMillis>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+  </stories>
+  <scenarios>
+    <performableScenario>
+      <scenario>
+        <title>registro</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString>|usuario|password|repeatpassword|gender|address|billing_address|state|&#xd;
+|Hernan|clave|clave|male|calle falsa 123|calle falsa 1234|Kerala|</tableAsString>
+          <headerSeparator>|</headerSeparator>
+          <valueSeparator>|</valueSeparator>
+          <ignorableSeparator>|--</ignorableSeparator>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers>
+            <string>usuario</string>
+            <string>password</string>
+            <string>repeatpassword</string>
+            <string>gender</string>
+            <string>address</string>
+            <string>billing_address</string>
+            <string>state</string>
+          </headers>
+          <data>
+            <linked-hash-map>
+              <entry>
+                <string>usuario</string>
+                <string>Hernan</string>
+              </entry>
+              <entry>
+                <string>password</string>
+                <string>clave</string>
+              </entry>
+              <entry>
+                <string>repeatpassword</string>
+                <string>clave</string>
+              </entry>
+              <entry>
+                <string>gender</string>
+                <string>male</string>
+              </entry>
+              <entry>
+                <string>address</string>
+                <string>calle falsa 123</string>
+              </entry>
+              <entry>
+                <string>billing_address</string>
+                <string>calle falsa 1234</string>
+              </entry>
+              <entry>
+                <string>state</string>
+                <string>Kerala</string>
+              </entry>
+            </linked-hash-map>
+          </data>
+          <properties>
+            <property name="headerSeparator" value="|"/>
+            <property name="valueSeparator" value="|"/>
+            <property name="ignorableSeparator" value="|--"/>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+          <trim>true</trim>
+        </examplesTable>
+        <steps>
+          <string>Given estoy en la aplicacion de training site</string>
+          <string>When me registro con usuario&lt;usuario&gt;, password&lt;password&gt;, repeatpassword&lt;repeatpassword&gt;, gender&lt;gender&gt;, address&lt;address&gt;, billing_address&lt;billing_address&gt;, state&lt;state&gt;</string>
+          <string>Then puedo iniciar sesion desde la pagina de login</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/Registro.story</storyPath>
+      <allowed>true</allowed>
+      <examplePerformableScenarios>
+        <examplePerformableScenario>
+          <parameters class="linked-hash-map">
+            <entry>
+              <string>usuario</string>
+              <string>Hernan</string>
+            </entry>
+            <entry>
+              <string>password</string>
+              <string>clave</string>
+            </entry>
+            <entry>
+              <string>repeatpassword</string>
+              <string>clave</string>
+            </entry>
+            <entry>
+              <string>gender</string>
+              <string>male</string>
+            </entry>
+            <entry>
+              <string>address</string>
+              <string>calle falsa 123</string>
+            </entry>
+            <entry>
+              <string>billing_address</string>
+              <string>calle falsa 1234</string>
+            </entry>
+            <entry>
+              <string>state</string>
+              <string>Kerala</string>
+            </entry>
+          </parameters>
+          <givenStories/>
+          <beforeSteps>
+            <matches/>
+          </beforeSteps>
+          <steps>
+            <matches/>
+            <results>
+              <successful>
+                <step>Given estoy en la aplicacion de training site</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>Given estoy en la aplicacion de training site</parametrisedStep>
+                <durationInMillis>10032</durationInMillis>
+              </successful>
+              <successful>
+                <step>When me registro con usuario&lt;usuario&gt;, password&lt;password&gt;, repeatpassword&lt;repeatpassword&gt;, gender&lt;gender&gt;, address&lt;address&gt;, billing_address&lt;billing_address&gt;, state&lt;state&gt;</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>When me registro con usuario｟Hernan｠, password｟clave｠, repeatpassword｟clave｠, gender｟male｠, address｟calle falsa 123｠, billing_address｟calle falsa 1234｠, state｟Kerala｠</parametrisedStep>
+                <durationInMillis>3461</durationInMillis>
+              </successful>
+              <successful>
+                <step>Then puedo iniciar sesion desde la pagina de login</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>Then puedo iniciar sesion desde la pagina de login</parametrisedStep>
+                <durationInMillis>62</durationInMillis>
+              </successful>
+            </results>
+          </steps>
+          <afterSteps>
+            <matches/>
+          </afterSteps>
+          <storyAndScenarioMeta>
+            <properties/>
+          </storyAndScenarioMeta>
+          <scenario>
+            <title>registro</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|usuario|password|repeatpassword|gender|address|billing_address|state|&#xd;
+|Hernan|clave|clave|male|calle falsa 123|calle falsa 1234|Kerala|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>usuario</string>
+                <string>password</string>
+                <string>repeatpassword</string>
+                <string>gender</string>
+                <string>address</string>
+                <string>billing_address</string>
+                <string>state</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>usuario</string>
+                    <string>Hernan</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>clave</string>
+                  </entry>
+                  <entry>
+                    <string>repeatpassword</string>
+                    <string>clave</string>
+                  </entry>
+                  <entry>
+                    <string>gender</string>
+                    <string>male</string>
+                  </entry>
+                  <entry>
+                    <string>address</string>
+                    <string>calle falsa 123</string>
+                  </entry>
+                  <entry>
+                    <string>billing_address</string>
+                    <string>calle falsa 1234</string>
+                  </entry>
+                  <entry>
+                    <string>state</string>
+                    <string>Kerala</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given estoy en la aplicacion de training site</string>
+              <string>When me registro con usuario&lt;usuario&gt;, password&lt;password&gt;, repeatpassword&lt;repeatpassword&gt;, gender&lt;gender&gt;, address&lt;address&gt;, billing_address&lt;billing_address&gt;, state&lt;state&gt;</string>
+              <string>Then puedo iniciar sesion desde la pagina de login</string>
+            </steps>
+          </scenario>
+        </examplePerformableScenario>
+      </examplePerformableScenarios>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+  </scenarios>
+</xref>

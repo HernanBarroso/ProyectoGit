@@ -1,0 +1,915 @@
+{"xref": {
+  "stories": [
+    {
+      "story": {
+        "path": "stories/Registro.story",
+        "description": {
+          "descriptionAsString": ""
+        },
+        "narrative": {
+          "inOrderTo": "",
+          "asA": "",
+          "iWantTo": "",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "registro",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|usuario|password|repeatpassword|gender|address|billing_address|state|\r\n|Hernan|clave|clave|male|calle falsa 123|calle falsa 1234|Kerala|",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "usuario",
+                "password",
+                "repeatpassword",
+                "gender",
+                "address",
+                "billing_address",
+                "state"
+              ],
+              "data": [
+                [
+                  [
+                    "usuario",
+                    "Hernan"
+                  ],
+                  [
+                    "password",
+                    "clave"
+                  ],
+                  [
+                    "repeatpassword",
+                    "clave"
+                  ],
+                  [
+                    "gender",
+                    "male"
+                  ],
+                  [
+                    "address",
+                    "calle falsa 123"
+                  ],
+                  [
+                    "billing_address",
+                    "calle falsa 1234"
+                  ],
+                  [
+                    "state",
+                    "Kerala"
+                  ]
+                ]
+              ],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given estoy en la aplicacion de training site",
+              "When me registro con usuario<usuario>, password<password>, repeatpassword<repeatpassword>, gender<gender>, address<address>, billing_address<billing_address>, state<state>",
+              "Then puedo iniciar sesion desde la pagina de login"
+            ]
+          }
+        ],
+        "name": "Registro.story"
+      },
+      "localizedNarrative": "As a \nI want to \nSo that ",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "registro",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|usuario|password|repeatpassword|gender|address|billing_address|state|\r\n|Hernan|clave|clave|male|calle falsa 123|calle falsa 1234|Kerala|",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "usuario",
+                "password",
+                "repeatpassword",
+                "gender",
+                "address",
+                "billing_address",
+                "state"
+              ],
+              "data": [
+                [
+                  [
+                    "usuario",
+                    "Hernan"
+                  ],
+                  [
+                    "password",
+                    "clave"
+                  ],
+                  [
+                    "repeatpassword",
+                    "clave"
+                  ],
+                  [
+                    "gender",
+                    "male"
+                  ],
+                  [
+                    "address",
+                    "calle falsa 123"
+                  ],
+                  [
+                    "billing_address",
+                    "calle falsa 1234"
+                  ],
+                  [
+                    "state",
+                    "Kerala"
+                  ]
+                ]
+              ],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given estoy en la aplicacion de training site",
+              "When me registro con usuario<usuario>, password<password>, repeatpassword<repeatpassword>, gender<gender>, address<address>, billing_address<billing_address>, state<state>",
+              "Then puedo iniciar sesion desde la pagina de login"
+            ]
+          },
+          "storyPath": "stories/Registro.story",
+          "allowed": true,
+          "examplePerformableScenarios": [
+            {
+              "parameters": [
+                [
+                  "usuario",
+                  "Hernan"
+                ],
+                [
+                  "password",
+                  "clave"
+                ],
+                [
+                  "repeatpassword",
+                  "clave"
+                ],
+                [
+                  "gender",
+                  "male"
+                ],
+                [
+                  "address",
+                  "calle falsa 123"
+                ],
+                [
+                  "billing_address",
+                  "calle falsa 1234"
+                ],
+                [
+                  "state",
+                  "Kerala"
+                ]
+              ],
+              "givenStories": [],
+              "beforeSteps": {
+                "matches": []
+              },
+              "steps": {
+                "matches": [],
+                "results": [
+                  {
+                    "step": "Given estoy en la aplicacion de training site",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "Given estoy en la aplicacion de training site",
+                    "durationInMillis": 10032
+                  },
+                  {
+                    "step": "When me registro con usuario<usuario>, password<password>, repeatpassword<repeatpassword>, gender<gender>, address<address>, billing_address<billing_address>, state<state>",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "When me registro con usuario｟Hernan｠, password｟clave｠, repeatpassword｟clave｠, gender｟male｠, address｟calle falsa 123｠, billing_address｟calle falsa 1234｠, state｟Kerala｠",
+                    "durationInMillis": 3461
+                  },
+                  {
+                    "step": "Then puedo iniciar sesion desde la pagina de login",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "Then puedo iniciar sesion desde la pagina de login",
+                    "durationInMillis": 62
+                  }
+                ]
+              },
+              "afterSteps": {
+                "matches": []
+              },
+              "storyAndScenarioMeta": {
+                "properties": []
+              },
+              "scenario": {
+                "title": "registro",
+                "meta": {
+                  "properties": []
+                },
+                "givenStories": {
+                  "givenStories": [],
+                  "givenStoriesAsString": "",
+                  "examplesTable": {
+                    "tableAsString": "",
+                    "headerSeparator": "|",
+                    "valueSeparator": "|",
+                    "ignorableSeparator": "|--",
+                    "tableTransformers": {
+                      "transformers": [
+                        [
+                          "FORMATTING",
+                          {}
+                        ],
+                        [
+                          "REPLACING",
+                          {}
+                        ],
+                        [
+                          "FROM_LANDSCAPE",
+                          {}
+                        ]
+                      ]
+                    },
+                    "headers": [],
+                    "data": [],
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ],
+                    "propertiesAsString": "",
+                    "namedParameters": [],
+                    "trim": true
+                  }
+                },
+                "examplesTable": {
+                  "tableAsString": "|usuario|password|repeatpassword|gender|address|billing_address|state|\r\n|Hernan|clave|clave|male|calle falsa 123|calle falsa 1234|Kerala|",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [
+                    "usuario",
+                    "password",
+                    "repeatpassword",
+                    "gender",
+                    "address",
+                    "billing_address",
+                    "state"
+                  ],
+                  "data": [
+                    [
+                      [
+                        "usuario",
+                        "Hernan"
+                      ],
+                      [
+                        "password",
+                        "clave"
+                      ],
+                      [
+                        "repeatpassword",
+                        "clave"
+                      ],
+                      [
+                        "gender",
+                        "male"
+                      ],
+                      [
+                        "address",
+                        "calle falsa 123"
+                      ],
+                      [
+                        "billing_address",
+                        "calle falsa 1234"
+                      ],
+                      [
+                        "state",
+                        "Kerala"
+                      ]
+                    ]
+                  ],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                },
+                "steps": [
+                  "Given estoy en la aplicacion de training site",
+                  "When me registro con usuario<usuario>, password<password>, repeatpassword<repeatpassword>, gender<gender>, address<address>, billing_address<billing_address>, state<state>",
+                  "Then puedo iniciar sesion desde la pagina de login"
+                ]
+              }
+            }
+          ],
+          "status": "SUCCESSFUL"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 15094
+      },
+      "givenStory": false
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": {
+        "title": "registro",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "|usuario|password|repeatpassword|gender|address|billing_address|state|\r\n|Hernan|clave|clave|male|calle falsa 123|calle falsa 1234|Kerala|",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [
+            "usuario",
+            "password",
+            "repeatpassword",
+            "gender",
+            "address",
+            "billing_address",
+            "state"
+          ],
+          "data": [
+            [
+              [
+                "usuario",
+                "Hernan"
+              ],
+              [
+                "password",
+                "clave"
+              ],
+              [
+                "repeatpassword",
+                "clave"
+              ],
+              [
+                "gender",
+                "male"
+              ],
+              [
+                "address",
+                "calle falsa 123"
+              ],
+              [
+                "billing_address",
+                "calle falsa 1234"
+              ],
+              [
+                "state",
+                "Kerala"
+              ]
+            ]
+          ],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given estoy en la aplicacion de training site",
+          "When me registro con usuario<usuario>, password<password>, repeatpassword<repeatpassword>, gender<gender>, address<address>, billing_address<billing_address>, state<state>",
+          "Then puedo iniciar sesion desde la pagina de login"
+        ]
+      },
+      "storyPath": "stories/Registro.story",
+      "allowed": true,
+      "examplePerformableScenarios": [
+        {
+          "parameters": [
+            [
+              "usuario",
+              "Hernan"
+            ],
+            [
+              "password",
+              "clave"
+            ],
+            [
+              "repeatpassword",
+              "clave"
+            ],
+            [
+              "gender",
+              "male"
+            ],
+            [
+              "address",
+              "calle falsa 123"
+            ],
+            [
+              "billing_address",
+              "calle falsa 1234"
+            ],
+            [
+              "state",
+              "Kerala"
+            ]
+          ],
+          "givenStories": [],
+          "beforeSteps": {
+            "matches": []
+          },
+          "steps": {
+            "matches": [],
+            "results": [
+              {
+                "step": "Given estoy en la aplicacion de training site",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "Given estoy en la aplicacion de training site",
+                "durationInMillis": 10032
+              },
+              {
+                "step": "When me registro con usuario<usuario>, password<password>, repeatpassword<repeatpassword>, gender<gender>, address<address>, billing_address<billing_address>, state<state>",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "When me registro con usuario｟Hernan｠, password｟clave｠, repeatpassword｟clave｠, gender｟male｠, address｟calle falsa 123｠, billing_address｟calle falsa 1234｠, state｟Kerala｠",
+                "durationInMillis": 3461
+              },
+              {
+                "step": "Then puedo iniciar sesion desde la pagina de login",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "Then puedo iniciar sesion desde la pagina de login",
+                "durationInMillis": 62
+              }
+            ]
+          },
+          "afterSteps": {
+            "matches": []
+          },
+          "storyAndScenarioMeta": {
+            "properties": []
+          },
+          "scenario": {
+            "title": "registro",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|usuario|password|repeatpassword|gender|address|billing_address|state|\r\n|Hernan|clave|clave|male|calle falsa 123|calle falsa 1234|Kerala|",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "usuario",
+                "password",
+                "repeatpassword",
+                "gender",
+                "address",
+                "billing_address",
+                "state"
+              ],
+              "data": [
+                [
+                  [
+                    "usuario",
+                    "Hernan"
+                  ],
+                  [
+                    "password",
+                    "clave"
+                  ],
+                  [
+                    "repeatpassword",
+                    "clave"
+                  ],
+                  [
+                    "gender",
+                    "male"
+                  ],
+                  [
+                    "address",
+                    "calle falsa 123"
+                  ],
+                  [
+                    "billing_address",
+                    "calle falsa 1234"
+                  ],
+                  [
+                    "state",
+                    "Kerala"
+                  ]
+                ]
+              ],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given estoy en la aplicacion de training site",
+              "When me registro con usuario<usuario>, password<password>, repeatpassword<repeatpassword>, gender<gender>, address<address>, billing_address<billing_address>, state<state>",
+              "Then puedo iniciar sesion desde la pagina de login"
+            ]
+          }
+        }
+      ],
+      "status": "SUCCESSFUL"
+    }
+  ]
+}}

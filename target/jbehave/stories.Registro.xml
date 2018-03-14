@@ -1,0 +1,18 @@
+<story path="stories/Registro.story" title="">
+<scenario keyword="Scenario:" title="registro">
+<examples keyword="Examples:">
+<step>Given estoy en la aplicacion de training site</step>
+<step>When me registro con usuario&lt;usuario&gt;, password&lt;password&gt;, repeatpassword&lt;repeatpassword&gt;, gender&lt;gender&gt;, address&lt;address&gt;, billing_address&lt;billing_address&gt;, state&lt;state&gt;</step>
+<step>Then puedo iniciar sesion desde la pagina de login</step>
+<parameters>
+<names><name>usuario</name><name>password</name><name>repeatpassword</name><name>gender</name><name>address</name><name>billing_address</name><name>state</name></names>
+<values><value>Hernan</value><value>clave</value><value>clave</value><value>male</value><value>calle falsa 123</value><value>calle falsa 1234</value><value>Kerala</value></values>
+</parameters>
+
+<example keyword="Example:">{usuario=Hernan, password=clave, repeatpassword=clave, gender=male, address=calle falsa 123, billing_address=calle falsa 1234, state=Kerala}</example>
+<step outcome="successful">Given estoy en la aplicacion de training site</step>
+<step outcome="successful">When me registro con usuario<parameter>Hernan</parameter>, password<parameter>clave</parameter>, repeatpassword<parameter>clave</parameter>, gender<parameter>male</parameter>, address<parameter>calle falsa 123</parameter>, billing_address<parameter>calle falsa 1234</parameter>, state<parameter>Kerala</parameter></step>
+<step outcome="successful">Then puedo iniciar sesion desde la pagina de login</step>
+</examples>
+</scenario>
+</story>
